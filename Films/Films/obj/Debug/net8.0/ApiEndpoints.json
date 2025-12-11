@@ -1,0 +1,33 @@
+[
+  {
+    "ContainingType": "MovieRecommendationAPI.Controllers.RecommendationController",
+    "Method": "GetRecommendation",
+    "RelativePath": "api/Recommendation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "date",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MovieRecommendationAPI.Controllers.RecommendationController",
+    "Method": "Test",
+    "RelativePath": "api/Recommendation/test",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
