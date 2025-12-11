@@ -1,0 +1,14 @@
+﻿{
+  "profiles": {
+    "EmailSenderAPI": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "api/Email/test",
+      "applicationUrl": "http://localhost:7200", // ТОЛЬКО HTTP, без HTTPS
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

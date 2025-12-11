@@ -1,0 +1,86 @@
+C:\Users\Yoko\source\repos\EmailSenderAPI\EmailSenderAPI\bin\Debug\net8.0\wwwroot\index.html
+C:\Users\Yoko\source\repos\EmailSenderAPI\EmailSenderAPI\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Yoko\source\repos\EmailSenderAPI\EmailSenderAPI\bin\Debug\net8.0\appsettings.json
+C:\Users\Yoko\source\repos\EmailSenderAPI\EmailSenderAPI\bin\Debug\net8.0\EmailSenderAPI.staticwebassets.runtime.json
+C:\Users\Yoko\source\repos\EmailSenderAPI\EmailSenderAPI\bin\Debug\net8.0\EmailSenderAPI.staticwebassets.endpoints.json
+C:\Users\Yoko\source\repos\EmailSenderAPI\EmailSenderAPI\bin\Debug\net8.0\EmailSenderAPI.exe
+C:\Users\Yoko\source\repos\EmailSenderAPI\EmailSenderAPI\bin\Debug\net8.0\EmailSenderAPI.deps.json
+C:\Users\Yoko\source\repos\EmailSenderAPI\EmailSenderAPI\bin\Debug\net8.0\EmailSenderAPI.runtimeconfig.json
+C:\Users\Yoko\source\repos\EmailSenderAPI\EmailSenderAPI\bin\Debug\net8.0\EmailSenderAPI.dll
+C:\Users\Yoko\source\repos\EmailSenderAPI\EmailSenderAPI\bin\Debug\net8.0\EmailSenderAPI.pdb
+C:\Users\Yoko\source\repos\EmailSenderAPI\EmailSenderAPI\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\Yoko\source\repos\EmailSenderAPI\EmailSenderAPI\bin\Debug\net8.0\MailKit.dll
+C:\Users\Yoko\source\repos\EmailSenderAPI\EmailSenderAPI\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Yoko\source\repos\EmailSenderAPI\EmailSenderAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Yoko\source\repos\EmailSenderAPI\EmailSenderAPI\bin\Debug\net8.0\MimeKit.dll
+C:\Users\Yoko\source\repos\EmailSenderAPI\EmailSenderAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Yoko\source\repos\EmailSenderAPI\EmailSenderAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Yoko\source\repos\EmailSenderAPI\EmailSenderAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Yoko\source\repos\EmailSenderAPI\EmailSenderAPI\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Yoko\source\repos\EmailSenderAPI\EmailSenderAPI\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Yoko\source\repos\EmailSenderAPI\EmailSenderAPI\obj\Debug\net8.0\EmailSenderAPI.csproj.AssemblyReference.cache
+C:\Users\Yoko\source\repos\EmailSenderAPI\EmailSenderAPI\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Yoko\source\repos\EmailSenderAPI\EmailSenderAPI\obj\Debug\net8.0\EmailSenderAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yoko\source\repos\EmailSenderAPI\EmailSenderAPI\obj\Debug\net8.0\EmailSenderAPI.AssemblyInfoInputs.cache
+C:\Users\Yoko\source\repos\EmailSenderAPI\EmailSenderAPI\obj\Debug\net8.0\EmailSenderAPI.AssemblyInfo.cs
+C:\Users\Yoko\source\repos\EmailSenderAPI\EmailSenderAPI\obj\Debug\net8.0\EmailSenderAPI.csproj.CoreCompileInputs.cache
+C:\Users\Yoko\source\repos\EmailSenderAPI\EmailSenderAPI\obj\Debug\net8.0\EmailSenderAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Yoko\source\repos\EmailSenderAPI\EmailSenderAPI\obj\Debug\net8.0\EmailSenderAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Yoko\source\repos\EmailSenderAPI\EmailSenderAPI\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\Yoko\source\repos\EmailSenderAPI\EmailSenderAPI\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\Yoko\source\repos\EmailSenderAPI\EmailSenderAPI\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\Yoko\source\repos\EmailSenderAPI\EmailSenderAPI\obj\Debug\net8.0\scopedcss\bundle\EmailSenderAPI.styles.css
+C:\Users\Yoko\source\repos\EmailSenderAPI\EmailSenderAPI\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Yoko\source\repos\EmailSenderAPI\EmailSenderAPI\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\Yoko\source\repos\EmailSenderAPI\EmailSenderAPI\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Yoko\source\repos\EmailSenderAPI\EmailSenderAPI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Yoko\source\repos\EmailSenderAPI\EmailSenderAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Yoko\source\repos\EmailSenderAPI\EmailSenderAPI\obj\Debug\net8.0\EmailSen.9624DAA1.Up2Date
+C:\Users\Yoko\source\repos\EmailSenderAPI\EmailSenderAPI\obj\Debug\net8.0\EmailSenderAPI.dll
+C:\Users\Yoko\source\repos\EmailSenderAPI\EmailSenderAPI\obj\Debug\net8.0\refint\EmailSenderAPI.dll
+C:\Users\Yoko\source\repos\EmailSenderAPI\EmailSenderAPI\obj\Debug\net8.0\EmailSenderAPI.pdb
+C:\Users\Yoko\source\repos\EmailSenderAPI\EmailSenderAPI\obj\Debug\net8.0\EmailSenderAPI.genruntimeconfig.cache
+C:\Users\Yoko\source\repos\EmailSenderAPI\EmailSenderAPI\obj\Debug\net8.0\ref\EmailSenderAPI.dll
+C:\Users\Пользователь\Desktop\1 семестр\ТПЦР\ВПК-7.1\EmailSenderAPI-main\EmailSenderAPI\EmailSenderAPI\bin\Debug\net8.0\wwwroot\index.html
+C:\Users\Пользователь\Desktop\1 семестр\ТПЦР\ВПК-7.1\EmailSenderAPI-main\EmailSenderAPI\EmailSenderAPI\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Пользователь\Desktop\1 семестр\ТПЦР\ВПК-7.1\EmailSenderAPI-main\EmailSenderAPI\EmailSenderAPI\bin\Debug\net8.0\appsettings.json
+C:\Users\Пользователь\Desktop\1 семестр\ТПЦР\ВПК-7.1\EmailSenderAPI-main\EmailSenderAPI\EmailSenderAPI\bin\Debug\net8.0\EmailSenderAPI.staticwebassets.runtime.json
+C:\Users\Пользователь\Desktop\1 семестр\ТПЦР\ВПК-7.1\EmailSenderAPI-main\EmailSenderAPI\EmailSenderAPI\bin\Debug\net8.0\EmailSenderAPI.staticwebassets.endpoints.json
+C:\Users\Пользователь\Desktop\1 семестр\ТПЦР\ВПК-7.1\EmailSenderAPI-main\EmailSenderAPI\EmailSenderAPI\bin\Debug\net8.0\EmailSenderAPI.exe
+C:\Users\Пользователь\Desktop\1 семестр\ТПЦР\ВПК-7.1\EmailSenderAPI-main\EmailSenderAPI\EmailSenderAPI\bin\Debug\net8.0\EmailSenderAPI.deps.json
+C:\Users\Пользователь\Desktop\1 семестр\ТПЦР\ВПК-7.1\EmailSenderAPI-main\EmailSenderAPI\EmailSenderAPI\bin\Debug\net8.0\EmailSenderAPI.runtimeconfig.json
+C:\Users\Пользователь\Desktop\1 семестр\ТПЦР\ВПК-7.1\EmailSenderAPI-main\EmailSenderAPI\EmailSenderAPI\bin\Debug\net8.0\EmailSenderAPI.dll
+C:\Users\Пользователь\Desktop\1 семестр\ТПЦР\ВПК-7.1\EmailSenderAPI-main\EmailSenderAPI\EmailSenderAPI\bin\Debug\net8.0\EmailSenderAPI.pdb
+C:\Users\Пользователь\Desktop\1 семестр\ТПЦР\ВПК-7.1\EmailSenderAPI-main\EmailSenderAPI\EmailSenderAPI\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\Пользователь\Desktop\1 семестр\ТПЦР\ВПК-7.1\EmailSenderAPI-main\EmailSenderAPI\EmailSenderAPI\bin\Debug\net8.0\MailKit.dll
+C:\Users\Пользователь\Desktop\1 семестр\ТПЦР\ВПК-7.1\EmailSenderAPI-main\EmailSenderAPI\EmailSenderAPI\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Пользователь\Desktop\1 семестр\ТПЦР\ВПК-7.1\EmailSenderAPI-main\EmailSenderAPI\EmailSenderAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Пользователь\Desktop\1 семестр\ТПЦР\ВПК-7.1\EmailSenderAPI-main\EmailSenderAPI\EmailSenderAPI\bin\Debug\net8.0\MimeKit.dll
+C:\Users\Пользователь\Desktop\1 семестр\ТПЦР\ВПК-7.1\EmailSenderAPI-main\EmailSenderAPI\EmailSenderAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Пользователь\Desktop\1 семестр\ТПЦР\ВПК-7.1\EmailSenderAPI-main\EmailSenderAPI\EmailSenderAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Пользователь\Desktop\1 семестр\ТПЦР\ВПК-7.1\EmailSenderAPI-main\EmailSenderAPI\EmailSenderAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Пользователь\Desktop\1 семестр\ТПЦР\ВПК-7.1\EmailSenderAPI-main\EmailSenderAPI\EmailSenderAPI\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Пользователь\Desktop\1 семестр\ТПЦР\ВПК-7.1\EmailSenderAPI-main\EmailSenderAPI\EmailSenderAPI\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Пользователь\Desktop\1 семестр\ТПЦР\ВПК-7.1\EmailSenderAPI-main\EmailSenderAPI\EmailSenderAPI\obj\Debug\net8.0\EmailSenderAPI.csproj.AssemblyReference.cache
+C:\Users\Пользователь\Desktop\1 семестр\ТПЦР\ВПК-7.1\EmailSenderAPI-main\EmailSenderAPI\EmailSenderAPI\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Пользователь\Desktop\1 семестр\ТПЦР\ВПК-7.1\EmailSenderAPI-main\EmailSenderAPI\EmailSenderAPI\obj\Debug\net8.0\EmailSenderAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Пользователь\Desktop\1 семестр\ТПЦР\ВПК-7.1\EmailSenderAPI-main\EmailSenderAPI\EmailSenderAPI\obj\Debug\net8.0\EmailSenderAPI.AssemblyInfoInputs.cache
+C:\Users\Пользователь\Desktop\1 семестр\ТПЦР\ВПК-7.1\EmailSenderAPI-main\EmailSenderAPI\EmailSenderAPI\obj\Debug\net8.0\EmailSenderAPI.AssemblyInfo.cs
+C:\Users\Пользователь\Desktop\1 семестр\ТПЦР\ВПК-7.1\EmailSenderAPI-main\EmailSenderAPI\EmailSenderAPI\obj\Debug\net8.0\EmailSenderAPI.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\Desktop\1 семестр\ТПЦР\ВПК-7.1\EmailSenderAPI-main\EmailSenderAPI\EmailSenderAPI\obj\Debug\net8.0\EmailSenderAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Пользователь\Desktop\1 семестр\ТПЦР\ВПК-7.1\EmailSenderAPI-main\EmailSenderAPI\EmailSenderAPI\obj\Debug\net8.0\EmailSenderAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Пользователь\Desktop\1 семестр\ТПЦР\ВПК-7.1\EmailSenderAPI-main\EmailSenderAPI\EmailSenderAPI\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\Пользователь\Desktop\1 семестр\ТПЦР\ВПК-7.1\EmailSenderAPI-main\EmailSenderAPI\EmailSenderAPI\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\Пользователь\Desktop\1 семестр\ТПЦР\ВПК-7.1\EmailSenderAPI-main\EmailSenderAPI\EmailSenderAPI\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\Пользователь\Desktop\1 семестр\ТПЦР\ВПК-7.1\EmailSenderAPI-main\EmailSenderAPI\EmailSenderAPI\obj\Debug\net8.0\scopedcss\bundle\EmailSenderAPI.styles.css
+C:\Users\Пользователь\Desktop\1 семестр\ТПЦР\ВПК-7.1\EmailSenderAPI-main\EmailSenderAPI\EmailSenderAPI\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Пользователь\Desktop\1 семестр\ТПЦР\ВПК-7.1\EmailSenderAPI-main\EmailSenderAPI\EmailSenderAPI\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\Пользователь\Desktop\1 семестр\ТПЦР\ВПК-7.1\EmailSenderAPI-main\EmailSenderAPI\EmailSenderAPI\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Пользователь\Desktop\1 семестр\ТПЦР\ВПК-7.1\EmailSenderAPI-main\EmailSenderAPI\EmailSenderAPI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Пользователь\Desktop\1 семестр\ТПЦР\ВПК-7.1\EmailSenderAPI-main\EmailSenderAPI\EmailSenderAPI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Пользователь\Desktop\1 семестр\ТПЦР\ВПК-7.1\EmailSenderAPI-main\EmailSenderAPI\EmailSenderAPI\obj\Debug\net8.0\EmailSen.9624DAA1.Up2Date
+C:\Users\Пользователь\Desktop\1 семестр\ТПЦР\ВПК-7.1\EmailSenderAPI-main\EmailSenderAPI\EmailSenderAPI\obj\Debug\net8.0\EmailSenderAPI.dll
+C:\Users\Пользователь\Desktop\1 семестр\ТПЦР\ВПК-7.1\EmailSenderAPI-main\EmailSenderAPI\EmailSenderAPI\obj\Debug\net8.0\refint\EmailSenderAPI.dll
+C:\Users\Пользователь\Desktop\1 семестр\ТПЦР\ВПК-7.1\EmailSenderAPI-main\EmailSenderAPI\EmailSenderAPI\obj\Debug\net8.0\EmailSenderAPI.pdb
+C:\Users\Пользователь\Desktop\1 семестр\ТПЦР\ВПК-7.1\EmailSenderAPI-main\EmailSenderAPI\EmailSenderAPI\obj\Debug\net8.0\EmailSenderAPI.genruntimeconfig.cache
+C:\Users\Пользователь\Desktop\1 семестр\ТПЦР\ВПК-7.1\EmailSenderAPI-main\EmailSenderAPI\EmailSenderAPI\obj\Debug\net8.0\ref\EmailSenderAPI.dll

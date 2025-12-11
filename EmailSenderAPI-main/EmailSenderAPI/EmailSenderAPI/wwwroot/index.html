@@ -1,0 +1,322 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎬 Служба рекомендаций фильмов</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+            width: 100%;
+            max-width: 500px;
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+            .header h1 {
+                font-size: 28px;
+                margin-bottom: 10px;
+            }
+
+            .header p {
+                opacity: 0.9;
+                font-size: 15px;
+            }
+
+        .content {
+            padding: 35px;
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #2c3e50;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        input {
+            width: 100%;
+            padding: 14px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: all 0.3s;
+        }
+
+            input:focus {
+                outline: none;
+                border-color: #3498db;
+                box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+            }
+
+        .btn {
+            width: 100%;
+            padding: 16px;
+            background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+            .btn:hover {
+                background: linear-gradient(135deg, #2980b9 0%, #1f639e 100%);
+                transform: translateY(-2px);
+            }
+
+            .btn:disabled {
+                background: #95a5a6;
+                cursor: not-allowed;
+                transform: none;
+            }
+
+        .loading {
+            text-align: center;
+            color: #7f8c8d;
+            display: none;
+            padding: 15px;
+        }
+
+        .message {
+            margin-top: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            display: none;
+        }
+
+        .success {
+            background: #d4edda;
+            color: #155724;
+            border: 2px solid #c3e6cb;
+        }
+
+        .error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 2px solid #f5c6cb;
+        }
+
+        .movie-preview {
+            margin-top: 25px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 5px solid #3498db;
+            display: none;
+        }
+
+            .movie-preview h3 {
+                color: #2c3e50;
+                margin-bottom: 10px;
+            }
+
+            .movie-preview p {
+                margin: 8px 0;
+                color: #34495e;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎬 Служба рекомендаций фильмов</h1>
+            <p>Получите персональную подборку фильма на любой день</p>
+        </div>
+
+        <div class="content">
+            <form id="movieForm">
+                <div class="form-group">
+                    <label for="email">📧 Ваш email:</label>
+                    <input type="email" id="email" placeholder="example@mail.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="date">📅 Выберите дату просмотра:</label>
+                    <input type="date" id="date" required>
+                </div>
+
+                <button type="submit" class="btn" id="submitBtn">
+                    🎬 Получить рекомендацию
+                </button>
+            </form>
+
+            <div class="loading" id="loading">
+                Ищем идеальный фильм для вас...
+            </div>
+
+            <div class="message" id="message"></div>
+
+            <div class="movie-preview" id="moviePreview">
+                <h3>🎬 Ваша рекомендация:</h3>
+                <p><strong>Название:</strong> <span id="previewTitle"></span></p>
+                <p><strong>Описание:</strong> <span id="previewDescription"></span></p>
+                <p><strong>Жанр:</strong> <span id="previewGenre"></span></p>
+                <p><strong>Время просмотра:</strong> <span id="previewTime"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Настройки API
+        const MOVIE_API_URL = 'http://localhost:5046';
+        const EMAIL_API_URL = 'http://localhost:7200';
+
+        // Элементы DOM
+        const form = document.getElementById('movieForm');
+        const loading = document.getElementById('loading');
+        const message = document.getElementById('message');
+        const submitBtn = document.getElementById('submitBtn');
+        const moviePreview = document.getElementById('moviePreview');
+
+        // Установить сегодняшнюю дату по умолчанию
+        window.onload = () => {
+            const today = new Date().toISOString().split('T')[0];
+            document.getElementById('date').value = today;
+            document.getElementById('date').min = today;
+        };
+
+        // Обработка отправки формы
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const email = document.getElementById('email').value.trim();
+            const date = document.getElementById('date').value;
+
+            // Валидация
+            if (!email || !date) {
+                showError('Заполните все поля');
+                return;
+            }
+
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(email)) {
+                showError('Введите корректный email');
+                return;
+            }
+
+            // Показываем загрузку
+            showLoading();
+
+            try {
+                // 1. Получаем рекомендацию фильма
+                const movieResponse = await fetch(
+                    `${MOVIE_API_URL}/api/Recommendation?date=${encodeURIComponent(date)}&email=${encodeURIComponent(email)}`
+                );
+
+                if (!movieResponse.ok) {
+                    throw new Error('Не удалось получить рекомендацию фильма');
+                }
+
+                const movieData = await movieResponse.json();
+
+                if (!movieData.success) {
+                    throw new Error(movieData.message || 'Ошибка получения фильма');
+                }
+
+                const { movie, viewingTime } = movieData.data;
+
+                // Показываем предпросмотр фильма
+                showMoviePreview(movie, viewingTime);
+
+                // 2. Отправляем письмо с рекомендацией
+                const emailRequest = {
+                    email: email,
+                    date: date,
+                    movieTitle: movie.title,
+                    movieDescription: movie.description,
+                    movieGenre: movie.genre,
+                    viewingTime: viewingTime
+                };
+
+                const emailResponse = await fetch(`${EMAIL_API_URL}/api/Gmail/send-movie`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(emailRequest)
+                });
+
+                const emailResult = await emailResponse.json();
+
+                if (emailResult.success) {
+                    showSuccess('Рекомендация отправлена на вашу почту! Проверьте входящие письма.');
+                } else {
+                    showError(emailResult.message || 'Ошибка при отправке письма');
+                }
+
+            } catch (error) {
+                showError(error.message);
+            } finally {
+                hideLoading();
+            }
+        });
+
+        // Функция для отображения предпросмотра фильма
+        function showMoviePreview(movie, time) {
+            document.getElementById('previewTitle').textContent = movie.title;
+            document.getElementById('previewDescription').textContent = movie.description;
+            document.getElementById('previewGenre').textContent = movie.genre;
+            document.getElementById('previewTime').textContent = time;
+            moviePreview.style.display = 'block';
+        }
+
+        // Функции для отображения сообщений
+        function showLoading() {
+            loading.style.display = 'block';
+            message.style.display = 'none';
+            submitBtn.disabled = true;
+            moviePreview.style.display = 'none';
+        }
+
+        function hideLoading() {
+            loading.style.display = 'none';
+            submitBtn.disabled = false;
+        }
+
+        function showSuccess(text) {
+            message.className = 'message success';
+            message.textContent = text;
+            message.style.display = 'block';
+        }
+
+        function showError(text) {
+            message.className = 'message error';
+            message.textContent = text;
+            message.style.display = 'block';
+        }
+    </script>
+</body>
+</html>

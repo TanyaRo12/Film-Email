@@ -1,0 +1,70 @@
+[
+  {
+    "ContainingType": "EmailSenderAPI.Controllers.GmailController",
+    "Method": "SendEmail",
+    "RelativePath": "api/Gmail/send",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "EmailSenderAPI.Models.EmailRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmailSenderAPI.Controllers.GmailController",
+    "Method": "SendMovieEmail",
+    "RelativePath": "api/Gmail/send-movie",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "EmailSenderAPI.Models.MovieEmailRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmailSenderAPI.Controllers.GmailController",
+    "Method": "SendWithFallback",
+    "RelativePath": "api/Gmail/send-with-fallback",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "EmailSenderAPI.Models.EmailRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmailSenderAPI.Controllers.GmailController",
+    "Method": "TestGmail",
+    "RelativePath": "api/Gmail/test",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmailSenderAPI.Controllers.GmailController",
+    "Method": "TestSimple",
+    "RelativePath": "api/Gmail/test-simple",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
